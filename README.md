@@ -1,7 +1,7 @@
 # Research-Portfolio
 This is a collection of the projects I worked on while a student researcher at OSU in the Physics department. I have split up project topics in different folders and inside each folder you will find some type of write up or presentation on the project and any coding that went with that project. Here is an overview of the contents in each folder.
 
-I suggest downloading a zip of this, because most items aren't visable on GitHub
+*I suggest downloading a zip of this, because most items aren't visable on GitHub*
 
 ### RET_PhasedArrayOptimization
 *	LeoDeerRETPresentation.pdf – Presentation given to the RET Collaboration which gives an overview and reports on the results of this project.
