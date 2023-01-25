@@ -7,7 +7,7 @@ This is a collection of projects I worked on while a student researcher at OSU i
 *	(*START HERE*) **LeoDeerRETPresentation.pdf** – Presentation given to the RET Collaboration which gives an overview and reports on the results of this project.
 *	(*START HERE*) **PhasedArrayOptimization.ipynb** – Optimization code used to find best design for a phased array.
 *	**ExamplePhasedArray.ipynb** – Simulates and creates plots of a single phased array design.
-*	**optimizerNAnpyMeep1.py & optimizerNAnpyMeep1.py** – Optimization code that uses finite difference time domain methods (not used in final results).
+*	**OptimizerMeep1.py & OptimizerMeep2.py** – Optimization code that uses finite difference time domain methods (not used in final results).
 *	The rest is data and plots from PhasedArrayOptimization.ipynb used to find results and the software to help PhasedArrayOptimization.ipynb run.
 
 ### RET_ParaPropImprovements
