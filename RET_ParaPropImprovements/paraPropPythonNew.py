@@ -128,10 +128,8 @@ class paraProp:
         ### other simulation variables ###       
         # filter information #
         self.fNum0 = int(filterDepth / dz)
-        print(self.fNum0)
         
         self.fNum1, self.fNum2 = self.optimize_filt_size(self.zNum, self.fNum0)
-        print(self.fNum1, self.fNum2)
         self.zFull = np.arange(-(airHeight + self.fNum1*dz), iceDepth + self.fNum2*dz + dz, dz)
         self.zNumFull = len(self.zFull)
         win = np.blackman(self.fNum1 + self.fNum2)
@@ -864,13 +862,11 @@ class paraProp:
             u = 2 * self.A[j] * self.source * self.filt * self.freq[j]
             self.field[0] = u[self.fNum1:-self.fNum2]
             
-            print('k0',self.k0)
-            print('len(kz)',len(self.kz))
             alpha = np.exp(1.j * self.dx * self.k0[j] * (np.sqrt(1. - (self.kz**2 / self.k0[j]**2))- 1.))
             
             B = self.n**2-1.
             Y = np.sqrt(1.+(self.n)**2)   ### Should not use n(0)
-            # THese are the other possible Y operators considered
+       ### THese are the other possible Y operators considered ###
             
             #Y = np.sqrt(1.+((self.n+self.npr*self.zFull)**2)+1.j*(2*self.npr/self.k0[j]+self.nprpr*self.zFull/self.k0[j])) #corrected derivative
             #Y = np.sqrt(1.+(self.n+self.npr*self.zFull)**2)  #emperical guess

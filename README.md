@@ -18,4 +18,3 @@ This is a collection of projects I worked on while a student researcher at OSU i
 
 ### GENETIS
 *	**CurvedBiconeProject.pdf** – Contains an overview of the last project I worked on with the GENETIS collaboration
-
